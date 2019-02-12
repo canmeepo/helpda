@@ -2,7 +2,7 @@
   "name": "helpda",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
@@ -24,6 +24,10 @@
   "bugs": {
     "url": "https://github.com/canmeepo/helpda/issues"
   },
+  "files": [
+    "lib",
+    "LICENSE"
+  ],
   "homepage": "https://github.com/canmeepo/helpda#readme",
   "devDependencies": {
     "@types/jest": "^24.0.0",
