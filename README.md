@@ -15,12 +15,13 @@ or
 $ yarn add helpda
 ```
 
-##Usage
+## Usage
 
 ```js
-import { mutilple } from 'helpda'
+import { mutilple, sum } from 'helpda'
 
-Mutiple(2, 3)
+multiple(2, 3)
+sum(2, 2)
 ```
 
 ## Documentation
