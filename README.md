@@ -15,13 +15,17 @@ or
 $ yarn add helpda
 ```
 
-## Usage
+## Example Usage
 
 ```js
-import { mutilple, sum } from 'helpda'
+import { mutilple, sum, map, reduce, sumArr } from 'helpda'
 
-multiple(2, 3)
-sum(2, 2)
+multiple(2, 3) // 6
+sum(2, 2) // 4
+
+map([1,2,3], (x) => x + 1) //[2,3,4]
+reduce([1,2,3], (x) => x + 1) //[2,3,4]
+sumArr([2,4,6]) // 12
 ```
 
 ## Documentation
@@ -29,7 +33,9 @@ sum(2, 2)
 | Type | Action | Function
 | --- | --- | --- |
 | Array | change every value | map
+|  | compute based on custom function and output the final value | reduce
 | Object | change every value | map
 | Functions | memoize | memoize
 | Math | sum two numbers | sum
 |  | multiple two numbers | mutiple
+|  | sum all number in array | sumArr
