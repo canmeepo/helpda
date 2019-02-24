@@ -1,7 +1,13 @@
 {
   "name": "helpda",
   "version": "1.0.3",
-  "description": "",
+  "description": "simple typescript utility library",
+  "keywords": [
+    "helpda",
+    "utils",
+    "utilities",
+    "toolkit"
+  ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
