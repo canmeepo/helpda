@@ -26,3 +26,10 @@ sum(2, 2)
 
 ## Documentation
 
+| Type | Action | Function
+| --- | --- | --- |
+| Array | change every value | map
+| Object | change every value | map
+| Functions | memoize | memoize
+| Math | sum two numbers | sum
+|  | multiple two numbers | mutiple
