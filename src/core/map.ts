@@ -1,9 +1,5 @@
-const map = <T, U>(arr: T[], fn: (x: T) => U): U[] => {
-  const newArr: U[] = [];
-  for (let i = 0; i < arr.length; i++) {
-    newArr[i] = fn(arr[i]);
-  }
-  return newArr;
-};
+const map = <T, U>(arr: T[], fn: (a: T) => U): U[] => {
+    return arr.map(x => fn(x))
+}
 
 export default map;
